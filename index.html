@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <title>Name Variations</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="nav-brand">Name Variations</h1>
+    </nav>
+    <main class="container">
+        <div>
+            <label class="label" for="component-name">Enter your name</label>
+            <input type="text" class="input" placeholder="Your name" id="your-name" autocomplete="off">
+        </div>
+    
+        <table class="table" border="1">
+            <thead>
+                <tr>
+                    <th width="200px">Variation</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Number of characters</td>
+                    <td id="answer1"></td>
+                </tr>
+                <tr>
+                    <td>Lower case</td>
+                    <td id="answer2"></td>
+                </tr>
+                <tr>
+                    <td>Upper case</td>
+                    <td id="answer3"></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer class="footer">
+        <h1> Made with love by Kebaso Moses</h1>
+    </footer>
+
+
+    <script type="module" src="index.js"></script>
+    <!-- <script src="helpers.js"></script> -->
+
+
+</body>
+</html>
